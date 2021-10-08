@@ -83,3 +83,18 @@ button {
     color: $color1;
   }
 }
+
+.successMessage {
+  color: white;
+  transform: translateY(-8px);
+  opacity: 0;
+  display: block;
+  transition-property: transform, opacity;
+  transition-duration: 0.3s;
+  margin-top: 8px;
+
+  &.successMessageEnter {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
