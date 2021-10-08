@@ -9,9 +9,22 @@
   </head>
   <body>
     <!-- Body -->
-    Hello World !
-
-    <textarea></textarea>
-    <textarea class="result"></textarea>
+    <div class="wrapper">
+      <h1>Hello World !</h1>
+      <section class="container">
+        <div class="formItem">
+          <label for="textInput"> Ton texte ici : </label>
+          <textarea
+            id="textInput"
+            placeholder="ex : Laura est quand même super sympa"
+          ></textarea>
+        </div>
+        <div class="formItem">
+          <label for="textInput"> Le resultat en émojis : </label>
+          <textarea class="result" readonly></textarea>
+        </div>
+        <button>Copier dans le press papier</button>
+      </section>
+    </div>
   </body>
 </html>
