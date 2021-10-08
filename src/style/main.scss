@@ -17,6 +17,7 @@ html {
   margin: 0;
   font-family: $font-family;
   color: $color2;
+  height: 100%;
 }
 
 body {
@@ -99,4 +100,11 @@ textarea {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+  opacity: 0.4;
 }
