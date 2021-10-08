@@ -28,3 +28,9 @@ export function copyToClipboard(text) {
     document.querySelector("body").removeChild(confMsg);
   }, 2000);
 }
+
+export const formatLetter = (letter) =>
+  letter
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
